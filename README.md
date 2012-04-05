@@ -1,7 +1,7 @@
 xmobar-tools
 ============
 
-A collaction of scripts which output xmobar-readable information
+A collection of scripts which give xmobar-formatted output. Useful for displaying status information in your xmobar.
 
 Synopsis
 --------
@@ -39,9 +39,7 @@ The functions of the various scripts outlined are below.  Note that some of them
 Usage
 -----
 
-To use a script, simply add an entry to the "commands" array of your .xmobarrc which looks something like
-   Run Com "/path/to/script" [] "entry_name" 10
-and add `%entry_name%` somewhere in the template string (assuming you're using '%' as a delimiter). An example .xmobarrc follows:
+To use a script, simply add an entry to the "commands" array of your .xmobarrc which looks something like `Run Com "/path/to/script" [] "entry_name" 10` and add `%entry_name%` somewhere in the template string (assuming you're using '%' as a delimiter). An example .xmobarrc follows:
 
     Config { font = "xft:terminus:size=9:antialias=true"
            , bgColor = "black"
@@ -83,4 +81,4 @@ License
 Authors
 -------
 
-- Alex Sayers (alex.sayers@gmail.com)
+- Alex Sayers (<alex.sayers@gmail.com>)
